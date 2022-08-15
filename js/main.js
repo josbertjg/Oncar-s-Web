@@ -1,0 +1,11 @@
+$(document).ready(()=>{
+    $(document).scroll(()=>{
+        if(window.innerWidth>376){
+            if(window.scrollY>0){
+                $("#logo").css({"height":"13vh"});
+            }else{
+                $("#logo").css({"height":"10vh"})
+            }
+        }
+    })
+});
